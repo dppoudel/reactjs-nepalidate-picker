@@ -1,6 +1,6 @@
 import React from 'react'
-import DatePicker from 'reactjs-nepalidate-picker'
-import 'reactjs-nepalidate-picker/dist/index.css'
+import DatePicker from '@dppoudel/reactjs-nepalidate-picker'
+import '@dppoudel/reactjs-nepalidate-picker/dist/index.css'
 import './index.css'
 const Picker = ({ setDateDetails, set }) => {
   console.log('datepicker rendering....')
