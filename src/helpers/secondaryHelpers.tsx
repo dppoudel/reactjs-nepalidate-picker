@@ -230,15 +230,7 @@ export const calendarFunctions = {
       daysNumFromMinBsYear += bsDate - 4
     } else if (bsYear === 2088 && bsMonth > 5) {
       daysNumFromMinBsYear += bsDate - 4
-    } else if (bsYear === 2081 && bsMonth === 2) {
-      daysNumFromMinBsYear += bsDate - 1;
-    } else if (bsYear === 2081 && bsMonth === 3) {
-      daysNumFromMinBsYear += bsDate - 1;
-    } else if (bsYear === 2081 && bsMonth === 11) {
-      daysNumFromMinBsYear += bsDate - 1;
-    } else if (bsYear === 2081 && bsMonth === 12) {
-      daysNumFromMinBsYear += bsDate - 1;
-    }else {
+    } else {
       daysNumFromMinBsYear += bsDate
     }
 
