@@ -1,13 +1,14 @@
 {
-  "name": "react-nepali-datepicker-example",
-  "homepage": "https://kaissaroj.github.io/react-nepali-datepicker",
+  "name": "reactjs-nepalidate-picker-example",
+  "homepage": "https://dppoudel.github.io/reactjs-nepalidate-picker",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@dppoudel/reactjs-nepalidate-picker": "^2.0.1",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
-    "react-scripts": "file:../node_modules/react-scripts",
-    "react-nepali-datepicker": "file:.."
+    "react-nepali-datepicker": "file:..",
+    "react-scripts": "file:../node_modules/react-scripts"
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
